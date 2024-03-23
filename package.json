@@ -1,0 +1,35 @@
+{
+  "name": "guessing_games",
+  "version": "1.0.0",
+  "description": "\"this is cli based guesssing game\",",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "guessing_games": "index.js"
+  },
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "init": "^0.1.2",
+    "inquirer": "^9.2.16",
+    "undici-types": "^5.26.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mianasjid17/as_guessinggame-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mianasjid17/as_guessinggame-/issues"
+  },
+  "homepage": "https://github.com/Mianasjid17/as_guessinggame-#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
